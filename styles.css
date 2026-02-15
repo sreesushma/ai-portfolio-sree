@@ -110,25 +110,6 @@ a:hover {
 }
 
 .nav-links a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
-}
-
-.nav-links a:hover {
-  color: #38bdf8;
-}
-
-/* prevents content hiding under navbar */
-body {
-  padding-top: 80px;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-.nav-links a {
   margin-left: 25px;
   text-decoration: none;
   color: white;
@@ -146,5 +127,14 @@ html {
   color: #38bdf8;
   transform: translateY(-1px);
 }
+/* prevents content hiding under navbar */
+body {
+  padding-top: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 
