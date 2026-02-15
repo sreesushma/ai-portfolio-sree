@@ -128,5 +128,23 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  padding-left: 25px;
+}
+
+.nav-links a:not(:first-child)::before {
+  content: "|";
+  position: absolute;
+  left: 0;
+  color: #475569;
+}
+.nav-links a:hover {
+  color: #38bdf8;
+  transform: translateY(-1px);
+}
 
 
