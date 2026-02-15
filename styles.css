@@ -65,7 +65,7 @@ ul {
   justify-content: center;
 }
 
-.btn-primary {
+.hero-buttons a {
   background: #38bdf8;
   color: black;
   padding: 12px 22px;
@@ -75,23 +75,10 @@ ul {
   transition: 0.3s;
 }
 
-.btn-primary:hover {
+.hero-buttons a:hover {
   transform: translateY(-2px);
 }
 
-.btn-secondary {
-  border: 1px solid #38bdf8;
-  padding: 12px 22px;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #38bdf8;
-  transition: 0.3s;
-}
-
-.btn-secondary:hover {
-  background: #38bdf8;
-  color: black;
-}
 
 
 /* PROJECT GRID */
