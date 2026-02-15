@@ -26,23 +26,73 @@ h3 {
   color: #e2e8f0;
 }
 
-#hero {
-  text-align: center;
-  padding-top: 100px;
-}
-
 ul {
   padding-left: 20px;
 }
 
-/* PROJECT CARDS */
+/* HERO SECTION */
 
-#projects p {
-  background: #1e293b;
-  padding: 15px;
-  border-radius: 10px;
-  margin-top: 5px;
+#hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  max-width: 600px;
+  margin: auto;
+  color: #cbd5f5;
+}
+
+/* HERO BUTTONS */
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: #38bdf8;
+  color: black;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  border: 1px solid #38bdf8;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #38bdf8;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background: #38bdf8;
+  color: black;
+}
+
 
 /* PROJECT GRID */
 
@@ -77,6 +127,12 @@ ul {
   color: #38bdf8;
 }
 
+#projects p {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
 
 /* CONTACT LINKS */
 
@@ -157,6 +213,7 @@ a:hover {
   color: #38bdf8;
   transform: translateY(-1px);
 }
+
 /* prevents content hiding under navbar */
 body {
   padding-top: 80px;
