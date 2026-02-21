@@ -130,6 +130,48 @@ ul li {
   color: #00c896;
 }
 
+.info-badge {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+}
+
+.research-badge {
+  background: rgba(168, 85, 247, 0.15);
+  color: #a855f7;
+}
+
+.btn-primary {
+  background: #38bdf8;
+  color: #020617;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(56, 189, 248, 0.25);
+}
+
+.btn-secondary {
+  border: 1px solid #6366f1;
+  color: #6366f1;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(99, 102, 241, 0.15);
+  transform: translateY(-2px);
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -201,14 +243,6 @@ ul li {
   display: flex;
   gap: 10px;
   margin-top: 12px;
-}
-
-.btn-secondary {
-  border: 1px solid #6366f1;
-  color: #6366f1;
-  padding: 8px 14px;
-  border-radius: 6px;
-  text-decoration: none;
 }
 
 .project-card {
