@@ -101,7 +101,21 @@ ul li {
   transform: translateY(-2px);
 }
 
+#goal {
+  text-align: center;
+}
 
+.goal-text {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.goal-subtext {
+  color: #9aa4b2;
+  font-size: 0.95rem;
+}
 
 /* PROJECT GRID */
 
@@ -142,7 +156,7 @@ ul li {
 
 .btn-primary {
   background: #38bdf8;
-  color: #020617;
+  color: black;
   padding: 10px 16px;
   border-radius: 6px;
   text-decoration: none;
