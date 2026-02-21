@@ -155,22 +155,6 @@ ul li {
 }
 
 .btn-primary {
-  background: #38bdf8;
-  color: black;
-  padding: 12px 22px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.btn-primary:hover {
-  background: #0ea5e9;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(56, 189, 248, 0.25);
-}
-
-.btn-secondary {
   border: 1px solid #6366f1;
   color: #6366f1;
   padding: 10px 16px;
@@ -180,7 +164,7 @@ ul li {
   transition: all 0.25s ease;
 }
 
-.btn-secondary:hover {
+.btn-primary:hover {
   background: rgba(99, 102, 241, 0.15);
   transform: translateY(-2px);
 }
