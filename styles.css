@@ -164,7 +164,45 @@ ul li {
   gap: 10px;
 }
 
+.flagship {
+  position: relative;
+  border: 2px solid #6366f1;
+}
 
+.badge {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  background: #6366f1;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+.project-impact {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.project-tech {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btn-secondary {
+  border: 1px solid #6366f1;
+  color: #6366f1;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
 /* CONTACT LINKS */
 
 a {
