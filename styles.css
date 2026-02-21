@@ -203,6 +203,12 @@ ul li {
   border-radius: 6px;
   text-decoration: none;
 }
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 /* CONTACT LINKS */
 
 a {
