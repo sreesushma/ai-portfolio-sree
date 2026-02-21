@@ -71,6 +71,12 @@ ul li {
   margin: auto;
   color: #cbd5f5;
 }
+.hero-impact {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #9aa4b2;
+  letter-spacing: 0.5px;
+}
 
 /* HERO BUTTONS */
 
@@ -111,7 +117,29 @@ ul li {
   border-radius: 6px;
 }
 
+.project-badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
 
+.badge {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.flagship-badge {
+  background: rgba(255, 215, 0, 0.15);
+  color: #ffd700;
+}
+
+.live-badge {
+  background: rgba(0, 200, 150, 0.15);
+  color: #00c896;
+}
 
 .project-grid {
   display: grid;
