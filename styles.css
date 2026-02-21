@@ -105,17 +105,6 @@ ul li {
 
 /* PROJECT GRID */
 
-.badge {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  background: #7c3aed;
-  color: white;
-  padding: 4px 8px;
-  border-radius: 6px;
-}
 
 .project-badges {
   display: flex;
@@ -197,16 +186,6 @@ ul li {
   border: 2px solid #6366f1;
 }
 
-.badge {
-  position: absolute;
-  top: -10px;
-  left: 15px;
-  background: #6366f1;
-  color: white;
-  padding: 4px 10px;
-  font-size: 12px;
-  border-radius: 20px;
-}
 
 .project-impact {
   font-weight: 500;
