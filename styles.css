@@ -157,12 +157,11 @@ ul li {
 .btn-primary {
   background: #38bdf8;
   color: black;
-  padding: 10px 16px;
-  border-radius: 6px;
+  padding: 12px 22px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
-  transition: all 0.25s ease;
-  border: none;
+  transition: 0.3s;
 }
 
 .btn-primary:hover {
